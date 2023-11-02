@@ -1,12 +1,18 @@
 import { createRouter, createWebHistory } from "vue-router";
 import Home from "../views/Home.vue";
 import ShowPost from "../views/posts/Show.vue";
+import CreatePost from "../views/posts/Create.vue";
 
 const routes = [
   {
     path: "/",
     name: "Home",
     component: Home,
+  },
+  {
+    path: "/posts/create",
+    name: "CreatePost",
+    component: CreatePost,
   },
   {
     path: "/posts/:id",
