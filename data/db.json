@@ -4,13 +4,49 @@
       "id": 1,
       "title": "Artikel Pertama",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor facilis quia vel suscipit illum eius tempora consequuntur earum in inventore corrupti repudiandae, dolores consectetur cupiditate error tempore id blanditiis.",
-      "tags": ["web", "vue", "node"]
+      "tags": [
+        "web",
+        "vue",
+        "node"
+      ]
     },
     {
       "id": 2,
       "title": "Artikel Kedua",
       "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor facilis quia vel suscipit illum eius tempora consequuntur earum in inventore corrupti repudiandae, dolores consectetur cupiditate error tempore id blanditiis.",
-      "tags": ["JS", "html", "css"]
+      "tags": [
+        "JS",
+        "html",
+        "css"
+      ]
+    },
+    {
+      "title": "Artikel Ketiga",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor facilis quia vel suscipit illum eius tempora consequuntur earum in inventore corrupti repudiandae, dolores consectetur cupiditate error tempore id blanditiis.",
+      "tags": [
+        "Vue",
+        "Java",
+        "Javascript"
+      ],
+      "id": 3
+    },
+    {
+      "title": "Artikel Keempat",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor facilis quia vel suscipit illum eius tempora consequuntur earum in inventore corrupti repudiandae, dolores consectetur cupiditate error tempore id blanditiis.",
+      "tags": [
+        "Angular",
+        "React",
+        "Flutter"
+      ],
+      "id": 4
+    },
+    {
+      "title": "Artikel Kelima",
+      "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur dolor facilis quia vel suscipit illum eius tempora consequuntur earum in inventore corrupti repudiandae, dolores consectetur cupiditate error tempore id blanditiis.",
+      "tags": [
+        "ReactNative"
+      ],
+      "id": 5
     }
   ]
 }
