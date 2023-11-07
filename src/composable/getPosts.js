@@ -1,6 +1,5 @@
 import { ref } from "vue";
 import { projectFirestore } from "@/firebase/config";
-import { collection } from "firebase/firestore";
 
 const getPosts = () => {
   const posts = ref([]);
@@ -9,7 +8,7 @@ const getPosts = () => {
   const load = async () => {
     try {
       // firebase
-      const res = await projectFirestore.collection("posts").get();
+      const res = await collection(projectFirestore, "posts").get();
       console.log(res);
 
       // fake rest api
