@@ -47,6 +47,15 @@
         "ReactNative"
       ],
       "id": 5
+    },
+    {
+      "title": "Dari clean blog",
+      "body": "Ini hasil dari integrasi clean blog ke dalam project vue",
+      "tags": [
+        "Vue3",
+        "Native"
+      ],
+      "id": 6
     }
   ]
 }
