@@ -7,11 +7,11 @@ const getPosts = () => {
 
   const load = async () => {
     try {
-      // firebase
-      const res = await collection(projectFirestore, "posts").get();
+      //TODO firebase
+      const res = await projectFirestore.collection("posts").get();
       console.log(res);
 
-      // fake rest api
+      //TODO fake rest api
       // await new Promise((resolve) => {
       //   setTimeout(resolve, 2000);
       // });
