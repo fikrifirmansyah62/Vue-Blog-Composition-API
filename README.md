@@ -12,6 +12,12 @@ Vue CLI 4.5.11
 Vue 3
 ```
 
+## Run FAKE API
+
+```
+json-server --watch data/db.json
+```
+
 ## Project setup
 
 ```
